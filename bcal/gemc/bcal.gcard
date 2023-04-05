@@ -12,6 +12,6 @@
 	<option name="SPREAD_P" value="0*GeV,3*deg,3*deg"/>
 
 	<option name="N" value="5"/>
-	<option name="USE_GUI" value="1"/>
+	<option name="USE_GUI" value="0"/>
 	<option name="OUTPUT" value="txt, ../out/output.txt"/>
 </gcard>
