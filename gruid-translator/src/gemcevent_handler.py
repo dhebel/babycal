@@ -47,6 +47,13 @@ def extract_hits(event):
 
         # Process photon hits
         if key == c.S_PHOTONHITS:
+            # DEBUGGING###################################################################
+            # ✅ Issue: KeyError: 'id'
+            #with open('debug.txt', 'w') as f:
+            #    print(event[c.IDBANK][c.S_VOL][hi], file=f) #[hi])/10**8
+            
+            #FIX: CAMBIAR 'id' por 'sector' en la constante S_VOL (en constants.py)
+            #############################################################################
             volid = int(int(event[c.IDBANK][c.S_VOL][hi])/10**8)
             if volid == c.SENSOR1A_ID or volid == c.SENSOR1B_ID: key = c.S_PHOTONH1
             if volid == c.SENSOR2A_ID or volid == c.SENSOR2B_ID: key = c.S_PHOTONH2
@@ -63,5 +70,5 @@ def extract_hits(event):
         hits[key][c.S_T]   .append(float(event[c.IRBANK][c.S_AVGT]  [hi]))     # Time (ns).
         hits[key][c.S_ED]  .append(float(event[c.IRBANK][c.S_EDEP]  [hi]))     # EDep (MeV).
         hits[key][c.S_TRKE].append(float(event[c.IRBANK][c.S_TRACKE][hi]))     # TrkE (MeV).
-
+        
     return hits

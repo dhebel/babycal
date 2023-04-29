@@ -17,7 +17,7 @@ def store_metadata(file):
     :return:     dictionary of metadata.
     """
     metadata = {}
-    filetype = False # Check if the file has an embedded json.
+    filetype = True # Check if the file has an embedded json.
 
     for i in range(2):
         devnull = file.readline() # Ignore the first two lines.
@@ -104,5 +104,12 @@ def store_event(file):
                 event_data[bank][sl[11]]  = sl[12]
     if eof != 0:
         return None
-
+    
+    # DEBUGGING###################################################################
+    # ❌ Issue: Output is empty
+    #with open('debug.txt', 'w') as f:
+    #    print(event_data, file=f)
+    #FIX:
+    #############################################################################
+    
     return event_data

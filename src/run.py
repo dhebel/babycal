@@ -12,7 +12,9 @@ filename = "bcal_" + time.strftime("%Y-%m-%dT%H:%M:%S") + "_r" + nrows + "c" + n
 # IDEAS:
 # READ PARTICLE TYPE FROM GEMC CARD AND ADD IT TO THE FILENAME
 # READ ENERGY FROM GEMC CARD AND ADD IT TO THE FILENAME
-# READ NUMBER OF EVENTS FROM GEMC CARD AND ADD IT TO THE FILENAME 
+# READ NUMBER OF EVENTS FROM GEMC CARD AND ADD IT TO THE FILENAME
+# SI ... AÑADIR LOS TRES
+# Current name format: bcal_2023-04-05T08:12:03_r7c7.txt
 
 os.chdir("../bcal/gemc/")
 # Run GEMC... Subprocess is necessary to run GEMC in the background inheriting the environment variables. (?)
@@ -33,3 +35,6 @@ gruid = subprocess.Popen(["python3", "main.py", "../../bcal/out/" + filename, "3
 # 0.1 is: dx    length of each row for each of the time series' matrices in cm.
 # 0.1 is: dy    length of each column for each of the time series' matrices in cm.
 os.waitpid(gruid.pid, 0)
+
+# --------- Data analysis Phase ---------
+# Pass gruid output to Gruid Analyzer.
