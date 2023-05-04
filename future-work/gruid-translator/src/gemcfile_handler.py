@@ -104,5 +104,12 @@ def store_event(file):
                 event_data[bank][sl[11]]  = sl[12]
     if eof != 0:
         return None
-
+    
+    # DEBUGGING###################################################################
+    # ❌ Issue: Output is empty
+    #with open('debug.txt', 'w') as f:
+    #    print(event_data, file=f)
+    #FIX:
+    #############################################################################
+    
     return event_data

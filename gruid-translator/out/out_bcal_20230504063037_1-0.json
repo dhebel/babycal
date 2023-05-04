@@ -1,0 +1,292 @@
+{
+    "bcal_20230504063037_r7c7.txt event 1": {
+        "gruid hits - side 1": {
+            "0.0": {
+                "4,0": {
+                    "# of hits": 2,
+                    "energy deposited": 9.7951525109e-06
+                },
+                "4,1": {
+                    "# of hits": 3,
+                    "energy deposited": 1.9142849288789998e-05
+                },
+                "5,0": {
+                    "# of hits": 7,
+                    "energy deposited": 2.9084556094291002e-05
+                },
+                "5,1": {
+                    "# of hits": 5,
+                    "energy deposited": 3.530506040681e-05
+                },
+                "5,3": {
+                    "# of hits": 6,
+                    "energy deposited": 3.314886465216e-05
+                },
+                "5,4": {
+                    "# of hits": 4,
+                    "energy deposited": 2.623773682768e-05
+                },
+                "5,5": {
+                    "# of hits": 1,
+                    "energy deposited": 7.1965634602e-06
+                },
+                "5,7": {
+                    "# of hits": 8,
+                    "energy deposited": 3.315061367534e-05
+                },
+                "5,8": {
+                    "# of hits": 1,
+                    "energy deposited": 1.54617185141e-06
+                }
+            }
+        },
+        "gruid hits - side 2": {
+            "0.0": {
+                "4,1": {
+                    "# of hits": 2,
+                    "energy deposited": 1.6386084655750002e-05
+                },
+                "5,1": {
+                    "# of hits": 5,
+                    "energy deposited": 2.676249162529e-05
+                },
+                "5,7": {
+                    "# of hits": 1,
+                    "energy deposited": 1.01323501425e-05
+                }
+            }
+        },
+        "gruid metadata": {
+            "# of columns (x)": 7,
+            "# of rows (y)": 10,
+            "dt": 30.0,
+            "dx": 0.1,
+            "dy": 0.1,
+            "pid": -13
+        }
+    },
+    "bcal_20230504063037_r7c7.txt event 2": {
+        "gruid hits - side 1": {
+            "0.0": {
+                "2,0": {
+                    "# of hits": 4,
+                    "energy deposited": 3.3566361177009995e-05
+                },
+                "2,2": {
+                    "# of hits": 2,
+                    "energy deposited": 1.3219881296350001e-05
+                }
+            }
+        },
+        "gruid hits - side 2": {
+            "0.0": {
+                "1,3": {
+                    "# of hits": 1,
+                    "energy deposited": 8.01080358502e-06
+                },
+                "1,6": {
+                    "# of hits": 1,
+                    "energy deposited": 1.00486074964e-05
+                },
+                "2,0": {
+                    "# of hits": 12,
+                    "energy deposited": 6.896227811851e-05
+                },
+                "2,1": {
+                    "# of hits": 3,
+                    "energy deposited": 1.9281771615289998e-05
+                },
+                "2,2": {
+                    "# of hits": 6,
+                    "energy deposited": 2.9074284380095003e-05
+                },
+                "2,4": {
+                    "# of hits": 1,
+                    "energy deposited": 3.85868558354e-06
+                },
+                "2,5": {
+                    "# of hits": 2,
+                    "energy deposited": 5.6610502350900005e-06
+                },
+                "2,6": {
+                    "# of hits": 2,
+                    "energy deposited": 1.6495193569830002e-05
+                }
+            }
+        },
+        "gruid metadata": {
+            "# of columns (x)": 7,
+            "# of rows (y)": 10,
+            "dt": 30.0,
+            "dx": 0.1,
+            "dy": 0.1,
+            "pid": -13
+        }
+    },
+    "bcal_20230504063037_r7c7.txt event 3": {
+        "gruid hits - side 1": {
+            "0.0": {
+                "3,0": {
+                    "# of hits": 1,
+                    "energy deposited": 1.47908812167e-06
+                },
+                "3,2": {
+                    "# of hits": 1,
+                    "energy deposited": 6.64840153765e-06
+                }
+            }
+        },
+        "gruid hits - side 2": {
+            "0.0": {
+                "2,1": {
+                    "# of hits": 1,
+                    "energy deposited": 6.47312390299e-06
+                },
+                "3,0": {
+                    "# of hits": 7,
+                    "energy deposited": 3.5554099489407e-05
+                },
+                "3,2": {
+                    "# of hits": 1,
+                    "energy deposited": 1.82565793005e-06
+                },
+                "3,3": {
+                    "# of hits": 1,
+                    "energy deposited": 1.55344185215e-06
+                },
+                "3,4": {
+                    "# of hits": 1,
+                    "energy deposited": 9.55251449634e-06
+                },
+                "3,5": {
+                    "# of hits": 4,
+                    "energy deposited": 1.7333775160520002e-05
+                },
+                "3,7": {
+                    "# of hits": 1,
+                    "energy deposited": 5.58032747278e-06
+                }
+            }
+        },
+        "gruid metadata": {
+            "# of columns (x)": 7,
+            "# of rows (y)": 10,
+            "dt": 30.0,
+            "dx": 0.1,
+            "dy": 0.1,
+            "pid": -13
+        }
+    },
+    "bcal_20230504063037_r7c7.txt event 4": {
+        "gruid hits - side 1": {
+            "0.0": {
+                "3,0": {
+                    "# of hits": 10,
+                    "energy deposited": 5.643523584973001e-05
+                },
+                "3,1": {
+                    "# of hits": 1,
+                    "energy deposited": 5.84061903953e-06
+                },
+                "3,2": {
+                    "# of hits": 8,
+                    "energy deposited": 5.733549007377001e-05
+                },
+                "3,4": {
+                    "# of hits": 1,
+                    "energy deposited": 8.19928574802e-06
+                },
+                "3,5": {
+                    "# of hits": 3,
+                    "energy deposited": 1.1712391208322e-05
+                },
+                "3,6": {
+                    "# of hits": 1,
+                    "energy deposited": 6.48645401062e-06
+                },
+                "3,7": {
+                    "# of hits": 1,
+                    "energy deposited": 9.84672912698e-06
+                },
+                "3,8": {
+                    "# of hits": 1,
+                    "energy deposited": 9.77150981957e-06
+                }
+            }
+        },
+        "gruid hits - side 2": {
+            "0.0": {
+                "3,0": {
+                    "# of hits": 3,
+                    "energy deposited": 1.1946381954819998e-05
+                },
+                "3,2": {
+                    "# of hits": 5,
+                    "energy deposited": 2.5556060009165e-05
+                },
+                "3,4": {
+                    "# of hits": 2,
+                    "energy deposited": 9.40861090556e-06
+                },
+                "3,5": {
+                    "# of hits": 1,
+                    "energy deposited": 1.04412620666e-05
+                },
+                "3,7": {
+                    "# of hits": 1,
+                    "energy deposited": 9.86261367597e-06
+                }
+            }
+        },
+        "gruid metadata": {
+            "# of columns (x)": 7,
+            "# of rows (y)": 10,
+            "dt": 30.0,
+            "dx": 0.1,
+            "dy": 0.1,
+            "pid": -13
+        }
+    },
+    "bcal_20230504063037_r7c7.txt event 5": {
+        "gruid hits - side 1": {
+            "0.0": {
+                "5,0": {
+                    "# of hits": 7,
+                    "energy deposited": 2.9372634845299996e-05
+                },
+                "5,3": {
+                    "# of hits": 8,
+                    "energy deposited": 3.0378822733856e-05
+                },
+                "6,0": {
+                    "# of hits": 1,
+                    "energy deposited": 1.7107788489e-06
+                },
+                "6,3": {
+                    "# of hits": 2,
+                    "energy deposited": 1.83523081969e-05
+                }
+            }
+        },
+        "gruid hits - side 2": {
+            "0.0": {
+                "5,0": {
+                    "# of hits": 2,
+                    "energy deposited": 7.682962039449999e-06
+                },
+                "5,3": {
+                    "# of hits": 2,
+                    "energy deposited": 1.52939078495e-05
+                }
+            }
+        },
+        "gruid metadata": {
+            "# of columns (x)": 7,
+            "# of rows (y)": 10,
+            "dt": 30.0,
+            "dx": 0.1,
+            "dy": 0.1,
+            "pid": -13
+        }
+    }
+}

@@ -1,0 +1,312 @@
+{
+    "bcal_2023-05-04T06:16:16_r7c7.txt event 1": {
+        "gruid hits - side 1": {
+            "0.0": {
+                "4,5": {
+                    "# of hits": 4,
+                    "energy deposited": 2.332630123514e-05
+                },
+                "5,0": {
+                    "# of hits": 5,
+                    "energy deposited": 1.3173103292799001e-05
+                },
+                "5,5": {
+                    "# of hits": 3,
+                    "energy deposited": 8.61754539728e-06
+                },
+                "5,6": {
+                    "# of hits": 4,
+                    "energy deposited": 3.0108953419349997e-05
+                },
+                "6,0": {
+                    "# of hits": 1,
+                    "energy deposited": 2.72366438903e-06
+                }
+            }
+        },
+        "gruid hits - side 2": {
+            "0.0": {
+                "4,6": {
+                    "# of hits": 4,
+                    "energy deposited": 3.39058927078e-05
+                },
+                "5,1": {
+                    "# of hits": 2,
+                    "energy deposited": 8.408706490094e-06
+                },
+                "5,5": {
+                    "# of hits": 1,
+                    "energy deposited": 4.51506367944e-06
+                },
+                "5,6": {
+                    "# of hits": 1,
+                    "energy deposited": 1.62883520474e-06
+                },
+                "6,1": {
+                    "# of hits": 5,
+                    "energy deposited": 2.8414800452749997e-05
+                }
+            }
+        },
+        "gruid metadata": {
+            "# of columns (x)": 7,
+            "# of rows (y)": 10,
+            "dt": 30.0,
+            "dx": 0.1,
+            "dy": 0.1,
+            "pid": -13
+        }
+    },
+    "bcal_2023-05-04T06:16:16_r7c7.txt event 2": {
+        "gruid hits - side 1": {
+            "0.0": {
+                "5,5": {
+                    "# of hits": 1,
+                    "energy deposited": 5.59946000952e-06
+                },
+                "6,1": {
+                    "# of hits": 1,
+                    "energy deposited": 5.98032045487e-06
+                },
+                "6,2": {
+                    "# of hits": 3,
+                    "energy deposited": 2.2750199260849998e-05
+                }
+            }
+        },
+        "gruid hits - side 2": {
+            "0.0": {
+                "5,4": {
+                    "# of hits": 2,
+                    "energy deposited": 3.474754363779e-06
+                },
+                "5,5": {
+                    "# of hits": 1,
+                    "energy deposited": 7.00256816847e-07
+                },
+                "5,7": {
+                    "# of hits": 10,
+                    "energy deposited": 5.570980839421999e-05
+                },
+                "5,8": {
+                    "# of hits": 2,
+                    "energy deposited": 1.7910419097090002e-05
+                },
+                "6,0": {
+                    "# of hits": 4,
+                    "energy deposited": 2.4586222016292003e-05
+                },
+                "6,1": {
+                    "# of hits": 4,
+                    "energy deposited": 1.860773683064e-05
+                },
+                "6,2": {
+                    "# of hits": 5,
+                    "energy deposited": 2.8952915388574003e-05
+                }
+            }
+        },
+        "gruid metadata": {
+            "# of columns (x)": 7,
+            "# of rows (y)": 10,
+            "dt": 30.0,
+            "dx": 0.1,
+            "dy": 0.1,
+            "pid": -13
+        }
+    },
+    "bcal_2023-05-04T06:16:16_r7c7.txt event 3": {
+        "gruid hits - side 1": {
+            "0.0": {
+                "3,5": {
+                    "# of hits": 2,
+                    "energy deposited": 1.006669000325e-05
+                },
+                "3,6": {
+                    "# of hits": 1,
+                    "energy deposited": 7.52914215808e-06
+                },
+                "4,3": {
+                    "# of hits": 4,
+                    "energy deposited": 2.943401862708e-05
+                }
+            }
+        },
+        "gruid hits - side 2": {
+            "0.0": {
+                "3,0": {
+                    "# of hits": 4,
+                    "energy deposited": 1.8071751658368997e-05
+                },
+                "3,3": {
+                    "# of hits": 8,
+                    "energy deposited": 4.8993114947710005e-05
+                },
+                "3,4": {
+                    "# of hits": 1,
+                    "energy deposited": 6.0915119841e-06
+                },
+                "3,6": {
+                    "# of hits": 3,
+                    "energy deposited": 7.7732011751e-06
+                },
+                "4,0": {
+                    "# of hits": 1,
+                    "energy deposited": 5.77927255377e-06
+                },
+                "4,3": {
+                    "# of hits": 8,
+                    "energy deposited": 4.472119325202e-05
+                },
+                "4,4": {
+                    "# of hits": 2,
+                    "energy deposited": 1.360570917453e-05
+                },
+                "4,5": {
+                    "# of hits": 1,
+                    "energy deposited": 5.95780032503e-06
+                },
+                "4,6": {
+                    "# of hits": 5,
+                    "energy deposited": 3.636670478908e-05
+                }
+            }
+        },
+        "gruid metadata": {
+            "# of columns (x)": 7,
+            "# of rows (y)": 10,
+            "dt": 30.0,
+            "dx": 0.1,
+            "dy": 0.1,
+            "pid": -13
+        }
+    },
+    "bcal_2023-05-04T06:16:16_r7c7.txt event 4": {
+        "gruid hits - side 1": {
+            "0.0": {
+                "4,3": {
+                    "# of hits": 3,
+                    "energy deposited": 2.3012226328409996e-05
+                },
+                "4,6": {
+                    "# of hits": 1,
+                    "energy deposited": 9.74821953408e-06
+                },
+                "5,0": {
+                    "# of hits": 1,
+                    "energy deposited": 6.72146722433e-06
+                },
+                "5,3": {
+                    "# of hits": 1,
+                    "energy deposited": 4.82925668135e-06
+                },
+                "5,5": {
+                    "# of hits": 2,
+                    "energy deposited": 1.307255615289e-05
+                },
+                "5,6": {
+                    "# of hits": 1,
+                    "energy deposited": 5.27908986563e-06
+                }
+            }
+        },
+        "gruid hits - side 2": {
+            "0.0": {
+                "4,0": {
+                    "# of hits": 6,
+                    "energy deposited": 2.98516225848e-05
+                },
+                "4,1": {
+                    "# of hits": 1,
+                    "energy deposited": 8.64822920295e-06
+                },
+                "4,3": {
+                    "# of hits": 2,
+                    "energy deposited": 1.2208901600759999e-05
+                },
+                "4,5": {
+                    "# of hits": 3,
+                    "energy deposited": 1.853894932479e-05
+                },
+                "4,6": {
+                    "# of hits": 2,
+                    "energy deposited": 9.98628357377e-06
+                },
+                "5,0": {
+                    "# of hits": 1,
+                    "energy deposited": 8.78552142028e-06
+                },
+                "5,1": {
+                    "# of hits": 1,
+                    "energy deposited": 5.94239215369e-06
+                },
+                "5,3": {
+                    "# of hits": 6,
+                    "energy deposited": 2.9984547859849998e-05
+                },
+                "5,5": {
+                    "# of hits": 4,
+                    "energy deposited": 2.742642254423e-05
+                },
+                "5,6": {
+                    "# of hits": 3,
+                    "energy deposited": 1.996389522689e-05
+                }
+            }
+        },
+        "gruid metadata": {
+            "# of columns (x)": 7,
+            "# of rows (y)": 10,
+            "dt": 30.0,
+            "dx": 0.1,
+            "dy": 0.1,
+            "pid": -13
+        }
+    },
+    "bcal_2023-05-04T06:16:16_r7c7.txt event 5": {
+        "gruid hits - side 1": {
+            "0.0": {
+                "1,0": {
+                    "# of hits": 6,
+                    "energy deposited": 3.0284650355959994e-05
+                },
+                "2,7": {
+                    "# of hits": 2,
+                    "energy deposited": 6.19931562958e-06
+                }
+            }
+        },
+        "gruid hits - side 2": {
+            "0.0": {
+                "1,0": {
+                    "# of hits": 17,
+                    "energy deposited": 0.000105593588769442
+                },
+                "2,4": {
+                    "# of hits": 1,
+                    "energy deposited": 9.38828035038e-06
+                },
+                "2,5": {
+                    "# of hits": 2,
+                    "energy deposited": 7.342858349964e-06
+                },
+                "2,7": {
+                    "# of hits": 10,
+                    "energy deposited": 7.662269434816e-05
+                },
+                "2,8": {
+                    "# of hits": 4,
+                    "energy deposited": 2.37658836639e-05
+                }
+            }
+        },
+        "gruid metadata": {
+            "# of columns (x)": 7,
+            "# of rows (y)": 10,
+            "dt": 30.0,
+            "dx": 0.1,
+            "dy": 0.1,
+            "pid": -13
+        }
+    }
+}

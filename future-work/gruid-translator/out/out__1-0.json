@@ -1,0 +1,304 @@
+{
+    "output.txt event 1": {
+        "gruid hits - side 1": {
+            "0.0": {
+                "3,0": {
+                    "# of hits": 3,
+                    "energy deposited": 1.0558475986912e-05
+                },
+                "3,1": {
+                    "# of hits": 4,
+                    "energy deposited": 1.983215951223e-05
+                },
+                "3,3": {
+                    "# of hits": 2,
+                    "energy deposited": 1.70443849409e-05
+                },
+                "3,4": {
+                    "# of hits": 1,
+                    "energy deposited": 4.97806268795e-06
+                },
+                "4,0": {
+                    "# of hits": 1,
+                    "energy deposited": 4.00372280758e-07
+                },
+                "4,1": {
+                    "# of hits": 2,
+                    "energy deposited": 1.348137480066e-05
+                },
+                "4,3": {
+                    "# of hits": 5,
+                    "energy deposited": 2.0231880619820002e-05
+                },
+                "4,4": {
+                    "# of hits": 1,
+                    "energy deposited": 5.15431902323e-06
+                },
+                "4,6": {
+                    "# of hits": 1,
+                    "energy deposited": 4.51525946007e-06
+                },
+                "4,7": {
+                    "# of hits": 1,
+                    "energy deposited": 5.89259472712e-06
+                }
+            }
+        },
+        "gruid hits - side 2": {
+            "0.0": {
+                "3,0": {
+                    "# of hits": 1,
+                    "energy deposited": 4.91027620898e-07
+                },
+                "3,1": {
+                    "# of hits": 2,
+                    "energy deposited": 2.2167876613700002e-06
+                },
+                "4,0": {
+                    "# of hits": 4,
+                    "energy deposited": 2.574513270191e-05
+                },
+                "4,1": {
+                    "# of hits": 1,
+                    "energy deposited": 7.27174806503e-07
+                },
+                "4,3": {
+                    "# of hits": 3,
+                    "energy deposited": 2.605824661623e-05
+                },
+                "4,7": {
+                    "# of hits": 13,
+                    "energy deposited": 6.848401414665399e-05
+                },
+                "4,8": {
+                    "# of hits": 1,
+                    "energy deposited": 7.77505135363e-06
+                }
+            }
+        },
+        "gruid metadata": {
+            "# of columns (x)": 7,
+            "# of rows (y)": 10,
+            "dt": 30.0,
+            "dx": 0.1,
+            "dy": 0.1,
+            "pid": -13
+        }
+    },
+    "output.txt event 2": {
+        "gruid hits - side 1": {
+            "0.0": {
+                "5,4": {
+                    "# of hits": 1,
+                    "energy deposited": 2.44483538467e-06
+                },
+                "5,5": {
+                    "# of hits": 3,
+                    "energy deposited": 2.22460522885e-05
+                }
+            }
+        },
+        "gruid hits - side 2": {
+            "0.0": {
+                "4,0": {
+                    "# of hits": 5,
+                    "energy deposited": 2.6328636395499997e-05
+                },
+                "4,1": {
+                    "# of hits": 1,
+                    "energy deposited": 8.58212536263e-06
+                },
+                "5,1": {
+                    "# of hits": 1,
+                    "energy deposited": 2.69036331774e-06
+                },
+                "5,2": {
+                    "# of hits": 2,
+                    "energy deposited": 1.9274882039119998e-05
+                },
+                "5,4": {
+                    "# of hits": 4,
+                    "energy deposited": 2.245292265349e-05
+                },
+                "5,5": {
+                    "# of hits": 3,
+                    "energy deposited": 1.8678385582030002e-05
+                },
+                "5,7": {
+                    "# of hits": 1,
+                    "energy deposited": 7.88102625512e-06
+                }
+            }
+        },
+        "gruid metadata": {
+            "# of columns (x)": 7,
+            "# of rows (y)": 10,
+            "dt": 30.0,
+            "dx": 0.1,
+            "dy": 0.1,
+            "pid": -13
+        }
+    },
+    "output.txt event 3": {
+        "gruid hits - side 1": {
+            "0.0": {
+                "4,0": {
+                    "# of hits": 5,
+                    "energy deposited": 3.373594608632e-05
+                },
+                "4,1": {
+                    "# of hits": 1,
+                    "energy deposited": 2.32735616485e-06
+                },
+                "4,3": {
+                    "# of hits": 2,
+                    "energy deposited": 1.656613936519e-05
+                },
+                "5,0": {
+                    "# of hits": 1,
+                    "energy deposited": 8.28207476742e-06
+                },
+                "5,4": {
+                    "# of hits": 1,
+                    "energy deposited": 1.0177550344e-05
+                }
+            }
+        },
+        "gruid hits - side 2": {
+            "0.0": {
+                "4,0": {
+                    "# of hits": 1,
+                    "energy deposited": 9.7133317755e-06
+                },
+                "4,3": {
+                    "# of hits": 2,
+                    "energy deposited": 7.852102214116e-06
+                },
+                "4,4": {
+                    "# of hits": 1,
+                    "energy deposited": 4.42621504274e-06
+                },
+                "5,3": {
+                    "# of hits": 3,
+                    "energy deposited": 8.481012872513e-06
+                }
+            }
+        },
+        "gruid metadata": {
+            "# of columns (x)": 7,
+            "# of rows (y)": 10,
+            "dt": 30.0,
+            "dx": 0.1,
+            "dy": 0.1,
+            "pid": -13
+        }
+    },
+    "output.txt event 4": {
+        "gruid hits - side 1": {
+            "0.0": {
+                "1,4": {
+                    "# of hits": 1,
+                    "energy deposited": 3.8924051947e-06
+                },
+                "1,5": {
+                    "# of hits": 1,
+                    "energy deposited": 2.69164138715e-06
+                }
+            }
+        },
+        "gruid hits - side 2": {
+            "0.0": {
+                "0,0": {
+                    "# of hits": 8,
+                    "energy deposited": 4.576188723978e-05
+                },
+                "0,1": {
+                    "# of hits": 2,
+                    "energy deposited": 8.04358774705e-06
+                },
+                "0,2": {
+                    "# of hits": 6,
+                    "energy deposited": 4.5754135604459996e-05
+                },
+                "1,4": {
+                    "# of hits": 4,
+                    "energy deposited": 2.8734913375040003e-05
+                },
+                "1,5": {
+                    "# of hits": 3,
+                    "energy deposited": 1.4212683178577998e-05
+                },
+                "1,7": {
+                    "# of hits": 9,
+                    "energy deposited": 3.6237042401670004e-05
+                },
+                "1,8": {
+                    "# of hits": 3,
+                    "energy deposited": 1.7600194785481e-05
+                }
+            }
+        },
+        "gruid metadata": {
+            "# of columns (x)": 7,
+            "# of rows (y)": 10,
+            "dt": 30.0,
+            "dx": 0.1,
+            "dy": 0.1,
+            "pid": -13
+        }
+    },
+    "output.txt event 5": {
+        "gruid hits - side 1": {
+            "0.0": {
+                "4,0": {
+                    "# of hits": 7,
+                    "energy deposited": 4.5034438176719995e-05
+                },
+                "4,1": {
+                    "# of hits": 2,
+                    "energy deposited": 1.635993026225e-05
+                },
+                "4,2": {
+                    "# of hits": 6,
+                    "energy deposited": 3.519082653253e-05
+                },
+                "4,4": {
+                    "# of hits": 1,
+                    "energy deposited": 6.92036324765e-06
+                }
+            }
+        },
+        "gruid hits - side 2": {
+            "0.0": {
+                "4,0": {
+                    "# of hits": 5,
+                    "energy deposited": 3.747209241649e-05
+                },
+                "4,2": {
+                    "# of hits": 15,
+                    "energy deposited": 5.2563030804577007e-05
+                },
+                "4,4": {
+                    "# of hits": 1,
+                    "energy deposited": 7.30608335343e-06
+                },
+                "5,5": {
+                    "# of hits": 2,
+                    "energy deposited": 1.7431946916979997e-05
+                },
+                "5,6": {
+                    "# of hits": 1,
+                    "energy deposited": 5.13370312387e-06
+                }
+            }
+        },
+        "gruid metadata": {
+            "# of columns (x)": 7,
+            "# of rows (y)": 10,
+            "dt": 30.0,
+            "dx": 0.1,
+            "dy": 0.1,
+            "pid": -13
+        }
+    }
+}
