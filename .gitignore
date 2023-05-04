@@ -129,6 +129,6 @@ dmypy.json
 .pyre/
 
 # GRUID Stuff
-src/__pycache__/*
-out/*
+gruid-translator/src/__pycache__/*
+gruid-translator/out/*
 
