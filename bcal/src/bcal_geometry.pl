@@ -6,8 +6,8 @@ our %configuration;
 # Los volúmenes de las fibras se dividen en a y b para poder hacer el shift de posición cada fila
 # por medio y quede una geometría simétrica.
 
-my $nrows = 7;  # Siempre impar por conveniencia. Número de filas.
-my $ncols = 7;  # Siempre impar por conveniencia. Número de columnas.
+my $nrows = 21;  # Siempre impar por conveniencia. Número de filas.
+my $ncols = 21;  # Siempre impar por conveniencia. Número de columnas.
 
 my $nrowsa = ($nrows + 1)/2; # Número de filas a.
 my $nrowsb = ($nrows - 1)/2; # Número de filas b.

@@ -4,8 +4,8 @@
 compile_gemc
 
 # Set filename.
-nrows="7" # Set by hand based on bcal_geometry!
-ncols="7" # Set by hand based on bcal_geometry!
+nrows="21" # Set by hand based on bcal_geometry!
+ncols="21" # Set by hand based on bcal_geometry!
 #now="$(date +'%Y%m%d%H%M%S')"
 now="$(date +'%Y-%m-%dT%H:%M:%S')"
 FNAME="bcal_"$now"_r"$nrows"c"$ncols".txt"
@@ -18,6 +18,6 @@ mv "output.txt" $FNAME
 echo $FNAME
 
 cd ../../gruid-translator
-source run.sh ../bcal/out/$FNAME 30 0.1 0.1
+source run.sh ../bcal/out/$FNAME 5 0.046 0.046
 echo "Gruid translation finished for $FNAME"
-
+cd ..
