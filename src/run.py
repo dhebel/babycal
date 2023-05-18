@@ -42,6 +42,7 @@ def reconstruct_matrix(data):
 with open('../gruid-translator/out/out_bcal_2023-05-12T01:50:18_1-0.json') as f:
     data = json.load(f)    
 
+matrix = reconstruct_matrix(data)
 
 
 # CNN

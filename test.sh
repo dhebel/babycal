@@ -1,17 +1,22 @@
 #!/bin/bash
 # ----------------SLURM Parameters----------------
+#SBATCH -J babycal
 #SBATCH -p gpuk
-#SBATCH -J dnn_02
-#SBATCH --mail-user=raquel.pezoa@usm.cl
+#SBATCH -n 1
+#SBATCH --gres=gpu:1
+#SBATCH -c 2
+#SBATCH --mail-user=daniel.hebel@sansano.usm.cl
 #SBATCH --mail-type=ALL
+#SBATCH --array=1-3%3
 #SBATCH -o higgs_output_%j.log
 #SBATCH -e higgs_error_%j.log
-#SBATCH --gres=gpu:1
-#SBATCH --time=7-00:00:00
+
 # ----------------Modules-----------------------------
 use anaconda3
+
 # ----------------Variables--------------------------
 project=/user/r/rpezoa/HEP_analysis/ATLASImbalanceLearning/
+
 # ----------------Comands--------------------------
 source activate /user/r/rpezoa/.conda/envs/root_py
 echo "Running test.sh"
