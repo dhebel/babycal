@@ -132,3 +132,5 @@ dmypy.json
 gruid-translator/src/__pycache__/*
 gruid-translator/out/*
 
+#SBATCH Stuff
+sbatch_logs/*

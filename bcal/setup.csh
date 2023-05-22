@@ -1,4 +1,7 @@
 #!/bin/csh
+
+compile_gemc
+
 # Generate simulation
 cd src/
 perl bcal.pl config.dat
