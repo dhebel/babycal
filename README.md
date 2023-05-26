@@ -5,5 +5,4 @@ This thesis work consists in a script that creates a system bewteen all the tool
 WIP (Resumen del funcionamiento del framework.)
 
 ## Usage
-
-Just clone and run `python3 src/run.py` with Python 3.
+Just clone and run the scripts for generation, translation and analysis

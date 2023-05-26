@@ -128,9 +128,17 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# GEMC Stuff
+bcal/out/*
+
 # GRUID Stuff
 gruid-translator/src/__pycache__/*
 gruid-translator/out/*
+gruid-translator/translations/*
 
-#SBATCH Stuff
+# Sims
+src/sims/*
+src/translations/*
+
+# SBATCH Stuff
 sbatch_logs/*

@@ -13,32 +13,32 @@ def reconstruct_matrix(data):
     # Declaration of a three-dimensional numpy matrix with two channels (side 1 and side 2) to give to a CNN.
     # The matrix will be filled with the energy deposited in each sparse coordinate (same coordinates as in the matrix).
     # The first channel is filled with the energy from the hits of the side 1 and the second channel is filled with the energy from hits of the side 2.
-    for event, event_data in data.items():
-        gruid_hits_side_1 = event_data['gruid hits - side 1']['0.0']
-        gruid_hits_side_2 = event_data['gruid hits - side 2']['0.0']
-        gruid_metadata = event_data['gruid metadata']
-        run, event_n = event.split("event")
     
+    for event, event_data in data.items():
+        gruid_hits_side_1 = event_data['gruid hits - side 1']
+        gruid_hits_side_2 = event_data['gruid hits - side 2']
+        gruid_metadata = event_data['gruid metadata']
+     
     matrix = np.zeros((gruid_metadata['# of rows (y)'], gruid_metadata['# of columns (x)'], 2))
 
     # IMPORTANT: Coordinates are inverted in the matrix because of matrix notation in GRUID.
     
     # Side 1
-    for pixel, pixel_data in gruid_hits_side_1.items():
-        x, y = pixel.split(",")
-        matrix[int(y), int(x), 0] = pixel_data['energy deposited']
+    for timestamp, timestamp_data in gruid_hits_side_1.items():
+        for pixel, pixel_data in timestamp_data.items():
+            x, y = pixel.split(",")
+            matrix[ int(y), int(x), 0 ] = pixel_data['energy deposited']
 
     # Side 2
-    for pixel, pixel_data in gruid_hits_side_2.items():
-        x, y = pixel.split(",")
-        matrix[int(y), int(x), 1] = pixel_data['energy deposited']
+    for timestamp, timestamp_data in gruid_hits_side_2.items():
+        for pixel, pixel_data in timestamp_data.items():
+            x, y = pixel.split(",")
+            matrix[ int(y), int(x), 1 ] = pixel_data['energy deposited']
         
     return matrix
 
 
 # Data loading
-
-# 0.1 example
 with open('../gruid-translator/out/out_bcal_2023-05-12T01:50:18_1-0.json') as f:
     data = json.load(f)    
 
