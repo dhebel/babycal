@@ -47,29 +47,33 @@ matrix = reconstruct_matrix(data)
 
 # CNN
 # We will use a CNN to classify the events.
+# The input of the CNN will be a matrix with two channels (side 1 and side 2) with the energy deposited in each sparse coordinate.
+# The output of the CNN will be a vector with two elements (one for each class).
 # The CNN will have two convolutional layers, two max pooling layers and two dense layers.
 # The first convolutional layer will have 32 filters and the second convolutional layer will have 64 filters.
 # The first dense layer will have 64 neurons and the second dense layer will have 2 neurons (one for each class).
 # The activation function of the first dense layer will be ReLU and the activation function of the second dense layer will be softmax.
 # The loss function will be categorical crossentropy and the optimizer will be Adam.
-# The metrics will be accuracy, AUC and F1-score.
+# The metrics will be f1-score , precision, recall, AUC and accuracy.
 
-model = models.Sequential()
-model.add(layers.Conv2D(32, (3, 3), activation='relu', input_shape=(matrix.shape[0], matrix.shape[1], 2)))
-model.add(layers.MaxPooling2D((2, 2)))
-model.add(layers.Conv2D(64, (3, 3), activation='relu'))
-model.add(layers.MaxPooling2D((2, 2)))
-model.add(layers.Flatten())
-model.add(layers.Dense(64, activation='relu'))
-model.add(layers.Dense(2, activation='softmax'))
+def f1_score(precision, recall):
+        return 2 * (precision * recall) / (precision + recall)
 
-model.compile(optimizer='adam',
-                loss='categorical_crossentropy',
-                metrics=['accuracy', keras.metrics.AUC(), keras.metrics.Precision(), keras.metrics.Recall(),
-                         keras.metrics.FalsePositives(), keras.metrics.FalseNegatives(), keras.metrics.TruePositives(),
-                         keras.metrics.TrueNegatives(), keras.metrics.PrecisionAtRecall(0.5), keras.metrics.RecallAtPrecision(0.5),
-                         keras.metrics.AUC(curve='PR'), keras.metrics.AUC(curve='ROC'), keras.metrics.PrecisionAtRecall(0.5),
-                         keras.metrics.RecallAtPrecision(0.5), keras.metrics.AUC(curve='PR'), keras.metrics.AUC(curve='ROC')]
-                )
+model = keras.Sequential([
+        keras.layers.Conv2D(32, kernel_size=(3, 3), activation='relu', input_shape=(X_train.shape[1], X_train.shape[2], X_train.shape[3])),
+        keras.layers.MaxPooling2D(pool_size=(2, 2)),
+        keras.layers.Conv2D(64, kernel_size=(3, 3), activation='relu'),
+        keras.layers.MaxPooling2D(pool_size=(2, 2)),
+        keras.layers.Flatten(),
+        keras.layers.Dense(64, activation='relu'),
+        keras.layers.Dense(2, activation='softmax')
+        ])
+
+# Compile the model and build F1 score metric
+model.compile(loss='categorical_crossentropy',
+              optimizer='adam',
+              metrics=[keras.metrics.Precision(), keras.metrics.Recall(),
+                       keras.metrics.AUC(), keras.metrics.AUC(curve='ROC'), 'accuracy', f1_score])
 
 model.summary()
+history = model.fit(X_train, y_train, epochs=20, validation_data=(X_val, y_val))
