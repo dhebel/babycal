@@ -35,7 +35,7 @@ gemc bcal.gcard -OUTPUT="txt, ../out/$FNAME"
 #done
 
 # Request a 1000 gemc simulations (sbatch jobs) for the script bcal.gcard in the bcal directory (1 job for every second).
-# sbatch --array=1-1000 bcal.gcard -OUTPUT="txt, ../out/$FNAME"
+# sbatch --array=1-5000 bcal.gcard -OUTPUT="txt, ../out/$FNAME"
 
 #counter=0
 #while [ $counter -lt 10 ]
