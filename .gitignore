@@ -142,3 +142,5 @@ src/translations/*
 
 # SBATCH Stuff
 sbatch_logs/*
+
+*.DS_Store
